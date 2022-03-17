@@ -1,5 +1,5 @@
 {% set name = "mpl-interactions" %}
-{% set version = "0.20.1" %}
+{% set version = "0.20.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mpl_interactions-{{ version }}.tar.gz
-  sha256: 7ee98678ed4d9c5d35e3491f3c8cbf547528d389109318e6d87f4faf117eae76
+  sha256: 303431480c60f881fb7d7e3b833b87aaaac37f41fa2c07b69ceb4d8a88f714bf
 
 build:
   noarch: python
