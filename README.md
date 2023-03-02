@@ -1,11 +1,11 @@
-About mpl-interactions
-======================
+About mpl-interactions-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mpl-interactions-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/mpl-interactions/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mpl-interactions-feedstock/blob/main/LICENSE.txt)
 
 Summary: Matplotlib aware interact functions
 
