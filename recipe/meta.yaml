@@ -1,5 +1,5 @@
 {% set name = "mpl-interactions" %}
-{% set version = "0.24.1" %}
+{% set version = "0.24.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mpl_interactions-{{ version }}.tar.gz
-  sha256: a77b4092b60099951bc9460ed3a4fd9fe17f507e751cf178d5e123eed6363b3f
+  sha256: 2ef91b44bd3fb88395d7ea0bae862b7c987004d87dfb478c8bc1655999a3c2e1
 
 build:
   noarch: python
@@ -16,8 +16,12 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.6
+    - setuptools >=45
+    - wheel
+    - setuptools-scm >=6.2
+    - pip
+
   run:
     - matplotlib-base >=3.4
     - python >=3.6
