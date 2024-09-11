@@ -16,8 +16,12 @@ build:
 
 requirements:
   host:
-    - pip
     - python >=3.6
+    - setuptools >=45
+    - wheel
+    - setuptools-scm >=6.2
+    - pip
+
   run:
     - matplotlib-base >=3.4
     - python >=3.6
